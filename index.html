@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Calculator</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container"></div>
-    
-   
-    <div class="calculator"><div class="display-box"><div id="display2"></div> <div id="display"></div></div>
-    <div class="num-div"><button type="button" class="numbers" value="0"> 0</button><button type="button"
-            class="numbers" value="1">1</button><button class="numbers" value="2">2</button><button type="button"
-            class="numbers" value="3">3</button><button type="button" class="numbers" value="4">4</button><button
-            class="numbers" value="5">5</button><button type="button" class="numbers" value="6">6</button><button
-            type="button" class="numbers" value="7">7</button><button type="button" class="numbers"
-            value="8">8</button><button type="button" class="numbers" value="9">9</button> <button type="button"
-            class="clear-btn">clear</button>
-        <button id="equals-btn">=</button>
-            
-            <button class="operator" value="+">+</button><button class="operator" value="-">-</button><button
-                class="operator" value="/">/</button><button class="operator" value="*">*</button>
-        </div></div>
-   
-</body>
 
+    <div class="calculator">
+      <div class="display-box">
+        <div id="display2"></div>
+        <div id="display"></div>
+      </div>
+      <div class="num-div">
+         <button type="button" class="clear-btn">C</button> 
+        <button>+/-</button>
+         <button>%</button>
+      <button type="button" class="operator" value="/">÷</button>
+       <button type="button" class="numbers" value="7">7</button>
+        <button type="button" class="numbers" value="8">8</button>
+        <button class="numbers" value="9">9</button>
+         
+       <button class="operator" value="*">x</button> 
+        <button type="button" class="numbers" value="4">4</button>
+        <button class="numbers" value="5">5</button>
+        <button type="button" class="numbers" value="6">6</button>
+       
+         <button class="operator" value="-">-</button> 
+         <button type="button" class="numbers" value="1">1</button>
+        <button type="button" class="numbers" value="1">2</button>
+         <button class="numbers" value="3">3</button>
+        
+      
+       
+            <button class="operator" value= "+">+</button>
+          
+           
+    
+      </div> 
+      <div class="footer"> <button type="button" class="numbers" id="zero" value="0">0</button> 
+            <button>.</button> 
+            <button id="equals-btn">=</button> </div>
+    </div>
+  </body>
 </html>
