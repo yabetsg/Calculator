@@ -1,23 +1,73 @@
-.numbers{
-    width: 100px;
-    height: 100px;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+button{
+    width: 77px;
+    height: 77px;
+    border-radius: 49px;
+   color: #ef0044;
+   font-size: 20px;
+   font-weight: bolder;
+    filter: drop-shadow(5px 17px 4px rgba(19, 18, 18, 0.25));
+    border: 3px solid #E5E5E5
 }
 .num-div{
+   
     display: grid;
-    grid-template-columns: repeat(3,0fr);
+    grid-template-rows: repeat(8, 0fr);
+    grid-template-columns: repeat(4, 0fr);
+    margin-top: 5%;
+   justify-content: center;
+   gap: 9px;
+   padding-left: 15px;
+   padding-right: 15px;
 }
-.operator{
-    width: 50px;
-    height: 50px;
-    display: grid;
-    grid-template-columns: repeat(2,0fr);
-    font-size: 50px;
+.display-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    Width: 329px;
+    Height: 164px;
+    margin-top: 20px;
+    background: rgba(223, 223, 223, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset -2px -1px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    
 }
-.clear-btn{
-    width: 100px;
-    height: 100px;
+.calculator{
+    display: flex;
+    flex-direction: column;
+    
+    background-image: linear-gradient(to bottom, #E5E5E5, #d19797);
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 36px;
+    height: 580px;
 }
-#equals-btn{
-    width: 50px;
-    height: 50px;
+#display{
+    width: 200px;
+     height: 50px; 
+     
+    display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     font-size: 20px;
+     padding: 10px;
 }
+#display2{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
