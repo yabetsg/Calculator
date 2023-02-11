@@ -11,4 +11,4 @@ To use the calculator, simply enter the calculation you wish to perform using th
 # Technology
 This calculator was built using HTML, CSS, and Javascript
 # Live Demo
-Check out the live demo: <a href= "">here<a>
+Check out the live demo: <a href= "https://yabetsg.github.io/Calculator">here<a>
