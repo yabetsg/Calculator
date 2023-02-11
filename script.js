@@ -124,15 +124,14 @@ const equalsEvent = () => {
     } else {
       secondNum = display.innerText;
       if (equalBtnCheck) {
-      
         firstNum = operate(
           operation,
           parseFloat(firstNum),
           parseFloat(secondNum)
         );
       }
-      if(firstNum.toString().includes("Infinity")){
-        firstNum = "You cant do that lol";
+      if (firstNum.toString().includes("Infinity")) {
+        firstNum = "You can't do that lol";
       }
       display.innerText = firstNum;
       secondNum = "";

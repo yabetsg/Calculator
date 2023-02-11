@@ -21,7 +21,8 @@ button {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 80%;
+  height: 100%;
+  transform: scale(0.8);
 }
 .num-div {
   display: grid;
